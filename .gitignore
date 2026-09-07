@@ -1,0 +1,30 @@
+# Mill / Scala
+out/
+.bloop/
+.metals/
+.bsp/
+.idea/
+*.class
+*.tasty
+
+# CIRCT / Chisel intermediates
+*.fir
+*.anno.json
+*.mlir
+
+# Local Nix
+.result
+result
+result-*
+
+# Editor / OS
+*~
+.DS_Store
+*.swp
+
+# Simulation leftovers (keep generated frame RTL)
+*.vcd
+*.fst
+*.fsdb
+obj_dir/
+__pycache__/

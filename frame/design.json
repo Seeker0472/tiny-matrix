@@ -1,0 +1,13 @@
+{
+  "name": "tiny-matrix",
+  "module": "FrameMatrix",
+  "sources": [
+    "rtl/FrameMatrix.sv"
+  ],
+  "include_dirs": [],
+  "defines": {},
+  "parameters": {
+    "IO_WIDTH": 66
+  },
+  "tests": []
+}

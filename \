@@ -1,0 +1,35 @@
+Initial commit: 4x4 matrix accelerator for mpc-frame
+
+Chisel RTL with chiseltest coverage, generated FrameMatrix SV package
+under frame/, and a minimal Makefile (build/test/clean) plus Nix flake.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Mon Sep 7 16:16:47 2026 +0800
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   .mill-version
+#	new file:   .scalafmt.conf
+#	new file:   Makefile
+#	new file:   README.md
+#	new file:   build.sc
+#	new file:   flake.lock
+#	new file:   flake.nix
+#	new file:   frame/README.md
+#	new file:   frame/design.json
+#	new file:   frame/rtl/FrameMatrix.sv
+#	new file:   matrix/src/matrix/FrameMatrix.scala
+#	new file:   matrix/src/matrix/IoMap.scala
+#	new file:   matrix/src/matrix/MatrixAlu.scala
+#	new file:   matrix/src/matrix/MatrixCore.scala
+#	new file:   matrix/src/matrix/Opcodes.scala
+#	new file:   matrix/test/src/matrix/FrameMatrixSpec.scala
+#	new file:   matrix/test/src/matrix/MatrixAluSpec.scala
+#	new file:   matrix/test/src/matrix/MatrixCoreSpec.scala
+#
